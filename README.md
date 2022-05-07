@@ -1,19 +1,22 @@
 # Merge_Sort_Project
 Merge sort project for patika.dev
 
+ Merge sort is an algorithm that is getting used by data scientists. In this algorithm, data set is continuously divided by 2^x data sets and
+ sorts between these data sets. It provides us a smaller time complexity and smaller big-o notation but it consumes more storage than insertion sort algorithm.
+
 
 We have [16,21,11,8,12,22] data set and we need to sort these numbers with merge sort algorithm.
 
 
-At the first step the data set should be this:
+At the first step the data set should be divided by 2:
 [16,21,11]  [8,12,22]
 
 
-Second step should be:
+At the second step data sets will be divided by 2 too.:
 [16,21] [11] [8,12] [22]
 
 
-Then, we should sort these numbers:
+Then, we should sort these numbers among 2 data sets:
 [16,21] [11] | [8,12] [22]
 
 
